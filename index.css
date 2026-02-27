@@ -1,0 +1,211 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(63, 62, 62, 0.85);
+ 
+}
+.navbar a{
+    color: #fff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.hero h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.hero p {
+  opacity: 0.7;
+}
+
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+/* Sections */
+.section {
+  padding: 100px 0;
+ 
+}
+
+.dark {
+  background: #111;
+}
+/* Education Icon */
+.edu-icon {
+  font-size: 40px;
+  transition: 0.3s;
+}
+
+.edu-box:hover .edu-icon {
+  transform: scale(1.2) rotate(5deg);
+}
+
+/* Skills Icons */
+.skill-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+/* Animation */
+.skill-box {
+  border: 1px solid #222;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.skill-box:hover {
+  background: #fff;
+  color: #000;
+  transform: translateY(-8px);
+}
+
+.skill-box:hover .skill-icon {
+  transform: scale(1.3) rotate(10deg);
+}
+
+/* Projects */
+#work ,#Contact ,.hero ,#education{
+    background-color: #222 !important;
+}
+.project {
+  border: 1px solid #222;
+  padding: 10px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #100f0f;
+}
+
+.project:hover {
+  background:#fff;
+  color: #080808;
+  transform: translateY(-10px);
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #222;
+}
+
+/* Services */
+.service {
+  border: 1px solid #222;
+  padding: 30px;
+  transition: 0.3s;
+  background-color:#fff;
+  color: #000;
+
+}
+
+.service:hover {
+  background: #ad96de;
+  color: #100f0f;
+}
+
+/*contact-start*/
+.icon .item .service-ico span i {
+  color: #111010;
+}
+
+.icon .item .service-ico {
+  width: 50px;
+  height: 50px !important;
+  /* background-color: #0078ff;*/
+  display: flex;
+  color: var(--secondary-color);
+  background-color: #f4f4f4;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+.icon .item:hover .service-ico span i {
+  color: #ffffff;
+}
+
+.icon .item:hover .service-ico {
+  color: rgb(252, 251, 251);
+  background-color: #de1313;
+  transform: scale(1.1);
+}
+
+.item h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.container .form input[type="text"],
+.container .form input#form_email,
+.container .form textarea#form_message {
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  background: #f4f4f4;
+}
+
+.container .form textarea {
+  height: 160px;
+  max-height: 160px;
+  max-width: 100%;
+}
+
+.container .form input {
+  padding: 10px 40px;
+}
+
+/*contact -end*/
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #222;
+}
+
+/* Modal Image */
+.modal-content img {
+  max-height: 80vh;
+  object-fit: cover;
+}
+.submit{
+    color: #000;
+    background-color: #fff;
+}
+.submit:hover {
+   background: #ad96de!important;
+  color: #100f0f !important;
+}
